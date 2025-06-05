@@ -44,7 +44,7 @@ Tampermonkey 是浏览器扩展，用于管理和运行用户脚本。请根据�
 ## 使用说明
 
 1. 搜索pixiv小说，比如搜索"无限制ai"，反正就是倒狗常用的关键字，网页右侧就会跳出两个按钮（如果没出来就刷新，刷新也没出来就确认一下油猴是否正常启用）
-![预览图](https://raw.githubusercontent.com/echo152/pixiv-mass-report-script/blob/main/1.png)
+![预览图](https://raw.githubusercontent.com/echo152/pixiv-mass-report-script/main/image/1.png)
 
 2. 点击按钮后会遍历所有搜出来的用户id，去重后储存起来，然后给目标用户主页网址后面加个参数batch=1，然后自动打开
 
