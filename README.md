@@ -52,7 +52,7 @@ Tampermonkey 是浏览器扩展，用于管理和运行用户脚本。请根据�
 すべての作品が有料AIウェブサイトに宣伝され、ランダムなエントリが入力されてレイアウトが汚されている
 All the works are promoted to paid AI websites, and random entries are filled in, polluting the layout”
 
-
+4. 自动举报启动后，会一直新打开网站，直到完全举报完，如果中途想终止，就关闭最开始的界面，或者刷新一下它。因为我想看一共举报了哪些，所以我是没有设置自动关闭举报完成的页面的，所以建议单独打开一个窗口页去自动举报
 
 ---
 
