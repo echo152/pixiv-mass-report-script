@@ -26,7 +26,7 @@ Tampermonkey 是浏览器扩展，用于管理和运行用户脚本。请根据�
 
 ---
 
-## 2. 安装 Pixiv关键词屏蔽脚本
+## 2. 安装 Pixiv自动举报脚本
 
 <a href="https://raw.githubusercontent.com/echo152/pixiv-mass-report-script/main/pixiv-mass-report-script1.user.js" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/Install%20Tampermonkey-brightgreen?style=for-the-badge&logo=tampermonkey" alt="Install Tampermonkey Script">
