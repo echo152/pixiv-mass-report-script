@@ -37,23 +37,20 @@ Tampermonkey 是浏览器扩展，用于管理和运行用户脚本。请根据�
 
 
 点击按钮后，会跳转到Tampermonkey的脚本安装页面，点击「安装」即可。
+
 要两个都安装，脚本1在页面弹出一个按钮 点击按钮后会遍历所有搜出来的用户id，储存起来，然后给网页后面加个参数，再一个一个批量打开，新标签页打开网页后，脚本2会识别参数,如果识别到就会开始自动举报，正常打开的是没有参数的，所以不会误举报。。
 
 ---
 ## 使用说明
 
-1. 搜索pixiv小说，比如搜索"催眠"，网页左侧就会跳出两个按钮（如果没出来就刷新，刷新也没出来就确认一下油猴是否正常启用）
-![预览图](https://raw.githubusercontent.com/echo152/pixiv-custom-filter/main/image/1.png)
+1. 搜索pixiv小说，比如搜索"无限制ai"，反正就是倒狗常用的关键字，网页右侧就会跳出两个按钮（如果没出来就刷新，刷新也没出来就确认一下油猴是否正常启用）
 
-2.  点击"关键词配置"，可以弹出配置界面，自定义输入要屏蔽的关键字，然后保存。比如这里我们屏蔽"lsyht"就在作者关键字里输入lsyht，如果有多个就输完后回车换行。
-![预览图](https://raw.githubusercontent.com/echo152/pixiv-custom-filter/main/image/2.png)
 
-不想一个一个手动加的话，可以直接导入我文件里的,打开1.txt复制粘贴然后导入就行
+2. 点击按钮后会遍历所有搜出来的用户id，去重后储存起来，然后给目标用户主页网址后面加个参数batch=1，然后自动打开
 
-配置文件链接：[1.txt](https://github.com/echo152/pixiv-custom-filter/blob/main/1.txt)
-
-3.  点击"Hide Ai",就会自动隐藏符合关键字的小说，再点击一下就会全部显示。
-![预览图](https://raw.githubusercontent.com/echo152/pixiv-custom-filter/main/image/3.png)
+3.  脚本2识别到batch=1就会自动开始举报，默认“诱导他人进入不良网站”，默认原因“作品全部宣传到付费AI网站，而且乱填词条，污染版面
+すべての作品が有料AIウェブサイトに宣伝され、ランダムなエントリが入力されてレイアウトが汚されている
+All the works are promoted to paid AI websites, and random entries are filled in, polluting the layout”
 
 
 
@@ -65,7 +62,6 @@ Tampermonkey 是浏览器扩展，用于管理和运行用户脚本。请根据�
 - 一键获取搜索结果的用户id，并打开主页进行自动举报
 
 ---
-
 
 
 ## 反馈与支持
